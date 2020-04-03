@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
+    
+    let list = ["Item1", "Itm2"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
 
 }
 

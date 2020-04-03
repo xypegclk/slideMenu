@@ -15,6 +15,7 @@
 		970662BD24377ED6003C6518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970662BB24377ED6003C6518 /* LaunchScreen.storyboard */; };
 		970662C824377ED6003C6518 /* slideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970662C724377ED6003C6518 /* slideMenuTests.swift */; };
 		970662D324377ED6003C6518 /* slideMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970662D224377ED6003C6518 /* slideMenuUITests.swift */; };
+		970662E3243789DA003C6518 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970662E2243789DA003C6518 /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		970662CE24377ED6003C6518 /* slideMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slideMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		970662D224377ED6003C6518 /* slideMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slideMenuUITests.swift; sourceTree = "<group>"; };
 		970662D424377ED6003C6518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		970662E2243789DA003C6518 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				970662B924377ED6003C6518 /* Assets.xcassets */,
 				970662BB24377ED6003C6518 /* LaunchScreen.storyboard */,
 				970662BE24377ED6003C6518 /* Info.plist */,
+				970662E2243789DA003C6518 /* MenuViewController.swift */,
 			);
 			path = slideMenu;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				970662B524377ED1003C6518 /* ViewController.swift in Sources */,
+				970662E3243789DA003C6518 /* MenuViewController.swift in Sources */,
 				970662B124377ED1003C6518 /* AppDelegate.swift in Sources */,
 				970662B324377ED1003C6518 /* SceneDelegate.swift in Sources */,
 			);
